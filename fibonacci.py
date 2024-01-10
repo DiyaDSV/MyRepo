@@ -4,13 +4,13 @@ if(n<=0):
 elif(n==1):
     print(0)
 elif(n==2):
-    print(0)
-    print(1)
+    print(0,end=' ')
+    print(1,end=' ')
 else:
     p=0
     q=1
-    print(0)
-    print(1)
+    print(0,end=' ')
+    print(1,end=' ')
     for i in range(n-2):
         r=p+q
         print(r,end=' ')
