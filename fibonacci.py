@@ -13,7 +13,7 @@ else:
     print(1)
     for i in range(n-2):
         r=p+q
-        print(r)
+        print(r,end=' ')
         p=q
         q=r
 print("DONE")
